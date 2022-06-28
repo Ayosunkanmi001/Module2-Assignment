@@ -1,10 +1,13 @@
 *{
  box-sizing: border-box;
+
 }
 
 h1{
- margin-bottom: 50px;
+ margin-bottom: 150px;
  text-align: center; 
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 300%;
 }
 p{
  border: 1px solid black;
@@ -13,13 +16,21 @@ p{
  margin-right: auto;
  margin-left: auto;
  color:aliceblue;
- background-color: rgb(221, 101, 101);
+ background-color: rgb(131, 31, 31);
+ position: relative;
+ padding:40px 10px 40px 10px;
+ font-family:sans-serif;
+ 
+ 
+ 
 }
 div{
     padding: 1rem;
+    position: relative;
 }
 .row{
  width: 100%;
+ 
 }
 
 /*for large devices*/
@@ -64,6 +75,7 @@ div{
 }
 .col-lg-12{
     width: 100%;
+    
 }
 }
 /* for medium devices*/
@@ -157,7 +169,15 @@ div{
 
 }
 
-section{
+span{
  border: 1px solid black;
-
+ position: absolute;
+ top: 0;
+ right: 0;
+ padding: 2px 40px 2px 40px;
+ font-size: 130%;
+ font-weight: bold;
+ background-color: aliceblue;
+ color:rgb(131, 31, 31);
+ 
 }
